@@ -1,0 +1,21 @@
+.form {
+  p:first-of-type {
+    text-align: center;
+  }
+
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #000;
+    padding: 0.25em;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}

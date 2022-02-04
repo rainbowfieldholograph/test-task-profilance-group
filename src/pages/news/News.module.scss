@@ -1,0 +1,32 @@
+.news {
+  h1:first-of-type {
+    margin-bottom: 0.5em;
+  }
+
+  label:first-of-type {
+    padding-right: 0.25em;
+  }
+
+  input:first-of-type {
+    border-bottom: 1px solid #000;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+}
