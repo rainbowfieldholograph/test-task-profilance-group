@@ -1,4 +1,4 @@
-##Тестовое задание Profilance Group
+## Тестовое задание Profilance Group
 
 - Логины/пароли:
   - login: user1, password: user12345, user
@@ -7,7 +7,8 @@
   - login: admin1, password: admin322, admin
   - login: hello, password: world, role: admin
 
-##Описание ТЗ
+## Описание ТЗ
+
 Создать SPA на React + Redux. Использовать JS/JSX
 Вверху должна быть строка меню: Логотип из задания(при клике на него происходит переход на главную), Новости, Вход/Выход
 
